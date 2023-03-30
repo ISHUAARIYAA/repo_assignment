@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: linear-gradient(to top,rgb(0, 0, 0),rgb(234, 250, 7) 100%);
+        color: rgb(20, 19, 19);
+        height: 650px;
+    }    
+
+    h1{
+        text-align: center;
+        font-size: 500%;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 400px;
+        border: 2px solid white;
+        margin: 10px;
+        align-items: center;
+        text-align: justify;
+        padding: 10px;
+        border-radius: 15px;
+        background: linear-gradient(to top,rgb(8, 204, 34),white 50%);
+        background-size: 100% 200%;
+        transition: all .8s;  
+    }
+    .box:hover{
+        background-position: left bottom;
+        color: rgb(22, 21, 21);
+        border: none;
+        box-shadow: 0 0 20px rgb(35, 199, 57);
+    }
+    .btn{
+       
+        background-color: aliceblue;
+        width: 8%;
+    }
+  
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servies</title>
+</head>
+<body>
+    <h1>SERVICES</h1>
+    <div class="row">
+        <div class="box">
+            <h2 class="heading">UX/UI DESIGN</h2>
+            <p>UI design and UX design are two of the most often confused and conflated terms in web and app design. And understandably so. They’re usually placed together in a single term, UI/UX design, and viewed from the surface they seem to be describing the same thing. It’s often hard to find solid descriptions of the two that don’t descend too far into jargon. But fear not!</p>
+        </div>
+        </div>
+
+        <div class="btn" button type="button"onclick="alert('Hello world!')">Click Me!</button>
+            </div>
+ 
+</body>
+</html>
