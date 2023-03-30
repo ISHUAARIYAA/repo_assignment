@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .form{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            align-items: center;
+            margin: 20px 10px;
+            margin-left: 100px;
+            position: relative;
+            bottom: 40px;
+        }
+    .input{
+            padding: 12px;
+            margin: 15px;
+            width: 300px;
+            border: none;
+            outline:1px;
+    }
+    #msg{
+            width: 300px;
+            padding: 10px;
+            margin: 15px;
+            border: none;
+            outline: none;
+    }
+    #send{
+            padding: 10px;
+            width: 100px;
+            margin-right: 190px;
+            border: 2px;
+            outline: none;
+    }
+    #send:hover{
+            cursor: pointer;
+            box-shadow: 0 0 10px rgb(0, 0, 0);
+            box-shadow: 10px;
+    }
+
+    #contact{
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            background: linear-gradient(to top,rgb(0, 0, 0),rgb(206, 93, 193) 100%);
+            height:650px;
+            color: rgb(250, 246, 246);
+            padding: 18px;
+    
+    }
+
+    h1{
+        text-align: center;
+        color: black;
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <section id="contact">
+    <h1>CONTACT ME</h1>
+    <from action="" class="form">
+        <input type="text" name="name" class="input" placeholder="Enter your Name">
+        <input type="email" name="email" class="input" placeholder="Enter your Email">
+        <input type="text" name="subject" class="input" placeholder="Subject">
+        <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Project Details"></textarea>
+        <a href="https://web.whatsapp.com/"><input type="submit" value="Contact Me" id="send"></a>
+    </from>
+</body>
+</html>
